@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_64"
+        android:text="@string/my_phonebook"
+        android:textColor="@color/color_font"
+        android:textSize="@dimen/sp_36"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/startImage"
+        android:layout_width="@dimen/dp_250"
+        android:layout_height="@dimen/dp_300"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_64"
+        android:src="@drawable/phonebook"
+        android:contentDescription="@string/todo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="@dimen/dp_64"
+        android:background="@drawable/shape_button_start"
+        android:text="@string/enter"
+        android:textColor="@color/tintButton"
+        android:textSize="@dimen/sp_24"
+        android:textStyle="bold" />
+
+</LinearLayout>

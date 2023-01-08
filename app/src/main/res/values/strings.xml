@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">PhoneBook</string>
+    <string name="logout">logout</string>
+    <string name="your_account">Your account:</string>
+    <string name="phone">phone</string>
+    <string name="save_contact">save contact</string>
+    <string name="save_contact_tv">Сохраненные контакты:</string>
+    <string name="login">logIn</string>
+    <string name="password">password</string>
+    <string name="registration">Registration</string>
+    <string name="my_phonebook">My PhoneBook</string>
+    <string name="enter">ENTER</string>
+    <string name="create_new_account">Create new Account</string>
+    <string name="back">back</string>
+    <string name="add_new_number">Заполните поля для добавления нового контакта:</string>
+    <string name="please_login">Please Login</string>
+    <string name="todo">TODO</string>
+    <string name="name">name</string>
 </resources>
