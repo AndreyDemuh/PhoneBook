@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_field_login_fragment">
+        <item name="android:layout_marginStart">@dimen/dp_36</item>
+        <item name="android:layout_marginTop">@dimen/dp_24</item>
+        <item name="android:layout_marginEnd">@dimen/dp_36</item>
+        <item name="android:background">@drawable/shape_edit_text</item>
+        <item name="android:drawablePadding">@dimen/dp_8</item>
+        <item name="android:padding">@dimen/dp_4</item>
+        <item name="android:textColorHint">@color/hintTextColor</item>
+        <item name="android:textSize">@dimen/sp_24</item>
+    </style>
+
+</resources>
